@@ -1,0 +1,37 @@
+/* login.css */
+
+.emoji {
+    display: inline-block;
+    animation: jump 1s infinite;
+  }
+  
+  @keyframes jump {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .emoji {
+    margin-left: 10px;
+    cursor: pointer;
+    color: yellow; 
+  }
+  
+  .emoji:hover {
+    animation-play-state: paused;
+  }
+  
+  .emoji:active {
+    animation-play-state: running;
+  }
