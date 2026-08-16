@@ -1,0 +1,105 @@
+.homepage-container {
+    padding: 20px;
+    height: 100%;
+  flex-direction: column;
+  }
+  
+  .hero-section {
+    background-color: #f1f1f1;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff5e5e;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff3b3b;
+  }
+  
+  .doctors-section {
+    margin-bottom: 40px;
+  }
+  
+  .doctors-section h2 {
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .doctor-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .doctor-card h3 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-card p {
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-card .specialization {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-card .cta-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ff5e5e;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  .doctor-card .cta-button:hover {
+    background-color: #ff3b3b;
+  }
+  .sticky-page {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  /* Rest of the CSS styles for header, hero-section, doctors-section, etc. */
+  
+  
